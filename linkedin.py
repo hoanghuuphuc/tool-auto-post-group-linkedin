@@ -6,8 +6,8 @@ import time
 import pandas
 
 from selenium.webdriver.common.by import By
-tk="volunteerqt123@gmail.com"
-mk="volunteerqt12345"
+tk="*********"
+mk="*********"
 excel_data_df = pandas.read_excel('linkedin.xlsx')
 page=excel_data_df['Link'].tolist()
 noi_dung=excel_data_df['NoiDung'].tolist()
